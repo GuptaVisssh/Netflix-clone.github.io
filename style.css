@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+body{ 
+    background: #000000;
+}
+
+
+.bg-img{
+    height: 94vh;
+    max-width: 100%;
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(./Images&Video/background.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+.nav{
+    align-items: center;
+    justify-content: space-between; 
+}
+
+
+.logo{
+    height: 50px;
+    overflow: hidden;
+}
+
+
+.lang{
+    color: #FFFFFF;
+    opacity: 1;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+
+.sign{
+    color: #FFFFFF;
+    background-color: #e50914;
+    opacity: 1;
+    border: 2px solid  #e50914;
+    border-radius: 4px;
+    text-decoration: none;    
+}
+
+
+.main-heading{
+    text-align: center;
+    padding-top: 160px;
+}
+.main-heading h1{
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.main-heading p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.main-heading form input{
+    width: 400px;
+    font-size: 20px;
+    background-color: rgb(17,15,15,0.7);
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #afadaf;
+}
+
+.main-heading form button{
+    font-size: 25px;
+    background-color: #e50914;
+    padding: 7px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-weight: 600;
+    border-radius: 3px;
+    border: none;
+}
+
+/* horizontal row */
+.defautl{
+    height: 9px;
+    width: 100%;
+    background-color: rgb(35,35,35);
+    
+}
+
+
+/*************************************************************features*************************************************************/
+
+.features{
+    padding: 0 125px;
+    display: flex; 
+    
+}
+
+.features .row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0;
+    justify-content: space-between;
+}
+
+.features .text-col{
+    flex-basis: 40%;
+    margin-bottom: 20px;
+}
+
+.features h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.features p{
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+
+.img-col img{
+    width: 550px;   
+}
+
+
+/*----------------------box2----------------*/
+
+
+.features .Downloading{
+    display: flex;
+    position: absolute;
+    margin-top: 293px;
+    margin-left: 130px;
+    border: #7e7b7b solid 2px; 
+    height: 90px; 
+    width: 320px; 
+    align-items: center; 
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 12px;
+}
+
+.features .Downloading img{
+    height: 75px; 
+    width: 65px; 
+    margin: 9px;
+}
+
+
+
+
+/*-----------------------TV2-------------------*/
+
+.tv-2 video{
+    height: 206px; width: 330px; margin-top: 44px;margin-left: 110px
+}
+
+
+
+
+/*************************************************************FAQ*************************************************************/
+.accordion-button{
+    background-color: #2d2d2d !important;
+    position: relative;
+    box-shadow: none !important;
+    color: #ffffff !important;
+    
+}
+
+.faq h1{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    padding: 2.4rem
+}
+
+
+
+.accordion-item{
+    background-color: #2d2d2d !important;
+    border: none !important;
+    margin: 7px;
+}
+
+
+.faq h2{
+    font-size: 2rem;
+}
+
+.faq p{
+    font-size: 1.3rem;
+}
+
+
+.faq .faq-form{
+    text-align: center;
+    padding: 3rem;
+    
+}
+.faq .faq-form input{
+    width: 400px;
+    font-size: 20px;
+    background-color: rgb(17,15,15,0.7);
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #afadaf;
+
+}
+
+.faq .faq-form button{
+    font-size: 25px;
+    background-color: #e50914;
+    padding: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-weight: 600;
+    border-radius: 3px;
+    border: none;
+}
+
+
+
+
+
+
+/***************************************************************FOOTER******************************************/
+.footer{
+    margin: 50px;
+}
+
+
+
+.footer .column{
+    flex-basis: 25%;
+    margin-top: 50px;
+    flex-grow: 1;
+}
+
+.footer a{
+    color: #ffffff;
+}
+.footer .column a{
+    display: block;
+    padding: 8px;
+}
+
+.footer .button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/********** Media ******** Query ***************/
+
+
+
+@media (max-width: 490px){
+    .main-heading h1{
+        font-weight: 600;
+        font-size: 2rem;
+    }
+
+    .main-heading p{
+        font-size: 18px;
+    }
+
+    .main-heading form input{
+        width: auto;
+    }
+
+    .faq .faq-form input{
+        width: auto;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 535px){
+    .bg-img .lang{
+        display: none;
+    }
+}
+
+
+
+
+
+@media (max-width: 553px){
+    .img-col img{
+        width: 336px;
+    }
+
+    .img-col video{
+        width: 250px;
+        margin-top: -72px;
+        margin-left: -27px;
+    }
+
+    .features .Downloading{
+        margin-top: 179px;
+        margin-left: 63px;
+        align-items: center;
+        justify-content: center;
+        height: 57px;
+        width: 240px;
+        border-radius: 6px;
+    }
+
+    .features .Downloading img{
+        height: 48px;
+        width: 50px;
+    }
+
+    .features .Downloading p{
+        font-size: 14px;
+    }
+
+
+    .tv-2 video{
+        width: 215px;
+        margin-top: -14px;
+        margin-left: 55px;
+    }
+    }
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .main-heading{
+        padding: 30px;
+    }
+
+
+    .main-heading form button{
+        margin: 20px;
+    }
+
+
+    .faq-form form button{
+        margin: 20px;
+    }
+}
+
+
+
+@media (max-width: 1207px){
+    .features .text-col{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .img-col{
+        
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+
+    .features .row{
+        text-align: center;
+        justify-content: center;
+    }
+    
+
+    
+    
+}
+
+@media (max-width: 675px){
+    .features{
+        padding: 0px;
+    }
+}
+
+
